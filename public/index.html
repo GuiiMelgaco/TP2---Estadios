@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Estádios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  
+  </head>
+<body>
+  <header>
+    <div class="container-90 mt-3">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+          <img src="assets/img/logotipo.png" alt="Página Inicial" class="logo" />
+
+            <div class="menu-botoes d-flex flex-wrap justify-content-center gap-3">
+              <a href="formulario.html" class="btn btn-success botao-menu" id="btnCadastro">Cadastro</a>
+              <a href="favoritos.html" class="btn btn-success botao-menu" id="btnFavoritos">Favoritos</a>
+              <button id="btnLoginLogout" class="btn btn-success botao-menu"></button>
+            </div>
+        </div>
+      </div>
+  </header>
+
+
+
+  <div class="container-90 mt-3">
+    <h2 class="separador-titulo mt-4">Itens em Destaque</h2>
+      <div id="carouselEstadios" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-inner"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstadios" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselEstadios" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+  </div>
+
+    <div class="container-90 mt-3">
+      <h2 class="separador-titulo mt-4">Estádios</h2>
+      <section id="cards">
+        <div class="row mb-3 align-items-center">
+          <div class="col-12 col-md-10 mb-2 mb-md-0">
+            <input type="text" id="campoBusca" class="form-control" placeholder="Pesquise um estádio pelo nome...">
+          </div>
+          <div class="col-12 col-md-2 d-flex justify-content-md-end">
+            <button id="btnLimparFiltro" class="btn btn-outline-secondary w-100 w-md-75">
+              <i class="bi bi-x-circle"></i> Limpar Filtro
+            </button>
+          </div>
+        </div>
+      </section>
+
+    <div id="lista-estadios" class="row mt-4"></div>
+
+    <h2 class="separador-titulo mt-4">Localização dos estádios</h2>
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+<section id="informacoes-aluno">
+  <h2 class="separador-titulo mt-4">Informações do Aluno</h2>
+
+  <div class="row align-items-start mt-4">
+        <div class="col-lg-5 mb-4">
+          <h6 class="titulo-sec">Autoria do Trabalho</h6>
+          <div class="d-flex align-items-center">
+            <img src="assets/img/foto.jpg" alt="Foto do Aluno" class="img-fluid rounded" style="width: 120px; height: 120px; object-fit: cover;">
+            <div class="ms-3">
+              <p class="mb-1"><strong>Nome:</strong> Guilherme Melgaço</p>
+              <p class="mb-1"><strong>Curso:</strong> Engenharia de Controle e Automação</p>
+              <p class="mb-1"><strong>Turno:</strong> Noite</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mb-4">
+          <h6 class="titulo-sec">Sobre</h6>
+          <p style="text-align: justify;">
+            Sou aluno do curso de Eng. de Controle e Automação e estou me formando neste semestre. Atualmente, trabalho com análise de dados numa grande empresa de mineração, na área de Segurança. Porém, também possuo experiência com programação de PLC, tendo atuado em prensas semi-automáticas e 100% automáticas, dentro do setor automobilístico.
+          </p>
+        </div>
+
+        <div class="col-lg-2 mb-4">
+          <h6 class="titulo-sec">Redes Sociais</h6>
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://github.com/GuiiMelgaco" class="mb-3 text-primary fs-5">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gmpmelgaco/" class="mb-3 text-primary fs-5">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<div id="modalLogin" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="fecharModal('modalLogin')">&times;</span>
+    <h2>Login</h2>
+    <input type="text" id="loginUsuario" placeholder="Login" required>
+    <input type="password" id="loginSenha" placeholder="Senha" required>
+    <button type="button" onclick="tentarLogin()">Entrar</button>
+    <button onclick="trocarParaCadastro()">Cadastrar</button>
+    <p id="erroLogin" class="erro-msg"></p>
+  </div>
+</div>
+
+<div id="modalCadastro" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="fecharModal('modalCadastro')">&times;</span>
+    <h2>Cadastro de Usuário</h2>
+    <input type="text" id="cadastroLogin" placeholder="Login" required>
+    <input type="text" id="cadastroNome" placeholder="Nome" required>
+    <input type="email" id="cadastroEmail" placeholder="Email" required>
+    <input type="password" id="cadastroSenha" placeholder="Senha" required>
+    <button onclick="cadastrarUsuario()">Cadastrar</button>
+    <p id="cadastroStatus" class="erro-msg"></p>
+  </div>
+</div>
+
+  <footer class="bg-success text-white text-center py-3">
+    <p>&copy; 2025 Guia de Estádios</p>
+  </footer>
+    
+  <script src="assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+  <script>
+  // Token Mapbox
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VpaW1lbGdhY28iLCJhIjoiY21iNGNlMDQ2MTZyNDJpb2xrdHYybW1pbyJ9.lkJ8j3We1RdiqXZ4XT1BZg';
+
+  fetch('http://localhost:3000/estadios')
+    .then(res => res.json())
+    .then(data => {
+      // Criar o mapa
+      const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v12',
+        center: [-47.9292, -15.7801],
+        zoom: 3
+      });
+
+      data.forEach(estadio => {
+        if (estadio.latitude && estadio.longitude) {
+          const marker = new mapboxgl.Marker()
+            .setLngLat([estadio.longitude, estadio.latitude])
+            .addTo(map);
+          const popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+          }).setHTML(`
+            <strong>${estadio.nome}</strong><br/>
+            ${estadio.localizacao}<br/>
+            Capacidade: ${estadio.capacidade}
+          `);
+
+          marker.getElement().addEventListener('mouseenter', () => {
+            popup.setLngLat([estadio.longitude, estadio.latitude]).addTo(map);
+          });
+
+          marker.getElement().addEventListener('mouseleave', () => {
+            setTimeout(() => popup.remove(), 600);
+          });
+          marker.getElement().addEventListener('click', () => {
+            window.location.href = `detalhes.html?id=${estadio.id}`;
+          });
+        }
+      });
+    })
+    .catch(error => console.error('Erro ao carregar dados:', error));
+
+  document.getElementById('btnLimparFiltro').addEventListener('click', () => {
+  const campoBusca = document.getElementById('campoBusca');
+  campoBusca.value = '';
+  campoBusca.dispatchEvent(new Event('input'));
+  });
+</script>
+</body>
+</html>

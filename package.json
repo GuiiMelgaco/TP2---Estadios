@@ -1,0 +1,17 @@
+{
+
+  "name": "tp2-diw",
+  "version": "1.0.0",
+  "description": "Nesse trabalho, vamos consolidar a jornada do semestre em uma aplicação completa somando algumas funcionalidades às entregas feitas até o momento.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./db/db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

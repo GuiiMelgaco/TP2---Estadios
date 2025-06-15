@@ -1,0 +1,353 @@
+{
+  "estadios": [
+    {
+      "nome": "Camp Nou",
+      "imagem": "assets/img/campnou.jpg",
+      "capacidade": "99354",
+      "localizacao": "Barcelona, Espanha",
+      "timeMandante": "FC Barcelona",
+      "descricao": "Inaugurado em 1957, o Camp Nou é o maior estádio da Europa e símbolo da cultura catalã.",
+      "curiosidades": "Durante um clássico contra o Real Madrid, mais de 120 mil pessoas já estiveram presentes no Camp Nou.",
+      "recorde": "120.000 pessoas em um clássico contra o Real Madrid.",
+      "eventos": "Final da Liga dos Campeões de 1999, Jogos Olímpicos de 1992.",
+      "imagens": [
+        "assets/img/campnou/foto1.jpg",
+        "assets/img/campnou/foto2.jpg",
+        "assets/img/campnou/foto3.jpg",
+        "assets/img/campnou/foto4.jpg",
+        "assets/img/campnou/foto5.jpg",
+        "assets/img/campnou/foto6.jpg",
+        "assets/img/campnou/foto7.jpg",
+        "assets/img/campnou/foto8.jpg"
+      ],
+      "latitude": 41.3752,
+      "longitude": 2.1204,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Santiago Bernabéu",
+      "imagem": "assets/img/bernabeu.jpg",
+      "capacidade": "81044",
+      "localizacao": "Madri, Espanha",
+      "timeMandante": "Real Madrid",
+      "descricao": "Inaugurado em 1947, o Santiago Bernabéu é um dos mais prestigiosos estádios de futebol do mundo.",
+      "curiosidades": "O estádio passou por uma grande reforma recentemente, incluindo a instalação de um teto retrátil.",
+      "recorde": "127.000 pessoas em uma final da Copa da Europa.",
+      "eventos": "Final da Copa do Mundo de 1982, Final da Liga dos Campeões de 2010.",
+      "imagens": [
+        "assets/img/bernabeu/foto1.jpg",
+        "assets/img/bernabeu/foto2.jpg",
+        "assets/img/bernabeu/foto3.jpg",
+        "assets/img/bernabeu/foto4.jpg",
+        "assets/img/bernabeu/foto5.jpg",
+        "assets/img/bernabeu/foto6.jpg",
+        "assets/img/bernabeu/foto7.jpg",
+        "assets/img/bernabeu/foto8.jpg"
+      ],
+      "latitude": 40.453039,
+      "longitude": -3.688334
+    },
+    {
+      "nome": "Maracanã",
+      "imagem": "assets/img/maracana.jpg",
+      "capacidade": "78838",
+      "localizacao": "Rio de Janeiro, Brasil",
+      "timeMandante": "Flamengo e Fluminense",
+      "descricao": "Estádio Jornalista Mário Filho, apelidado como Maracanã, ou carinhosamente como Maraca, é um estádio de futebol localizado no bairro de mesmo nome, na Zona Norte da cidade brasileira do Rio de Janeiro.",
+      "curiosidades": "Já recebeu mais de 199 mil pessoas em uma única partida, na final da Copa de 1950.",
+      "recorde": "194603  em uma  final de Campeonato Carioca, desta vez entre o Flamengo e o Fluminense em 1963",
+      "eventos": "Final das Olimpíadas de 2016",
+      "imagens": [
+        "assets/img/maracana/foto1.jpg",
+        "assets/img/maracana/foto2.jpg",
+        "assets/img/maracana/foto3.jpg",
+        "assets/img/maracana/foto4.jpg",
+        "assets/img/maracana/foto5.jpg",
+        "assets/img/maracana/foto6.jpg",
+        "assets/img/maracana/foto7.jpg",
+        "assets/img/maracana/foto8.jpg"
+      ],
+      "latitude": -22.9134,
+      "longitude": -43.2288,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "nome": "Allianz Arena",
+      "imagem": "assets/img/allianz.jpg",
+      "capacidade": "75000",
+      "localizacao": "Munique, Alemanha",
+      "timeMandante": "Bayern de Munique",
+      "descricao": "Inaugurado em 2005, possui fachada que muda de cor de acordo com o time mandante.",
+      "curiosidades": "Foi o primeiro estádio do mundo com fachada completamente iluminada por LED.",
+      "recorde": "75.000 pessoas em uma final da Liga dos Campeões.",
+      "eventos": "Final da Liga dos Campeões de 2012, Final da Copa do Mundo de 2006.",
+      "imagens": [
+        "assets/img/allianz/foto1.jpg",
+        "assets/img/allianz/foto2.jpg",
+        "assets/img/allianz/foto3.jpg",
+        "assets/img/allianz/foto4.jpg",
+        "assets/img/allianz/foto5.jpg",
+        "assets/img/allianz/foto6.jpg",
+        "assets/img/allianz/foto7.jpg",
+        "assets/img/allianz/foto8.jpg"
+      ],
+      "latitude": 48.218967,
+      "longitude": 11.623746
+    },
+    {
+      "id": "5",
+      "nome": "San Siro",
+      "imagem": "assets/img/sansiro.jpg",
+      "capacidade": "75923",
+      "localizacao": "Milão, Itália",
+      "timeMandante": "AC Milan e Internazionale",
+      "descricao": "Um dos estádios mais icônicos da Itália, com quase 100 anos de história.",
+      "curiosidades": "Possui rampas helicoidais que dão acesso às arquibancadas superiores.",
+      "recorde": "80.000 pessoas em uma final da Liga dos Campeões.",
+      "eventos": "Final da Copa do Mundo de 1990, Final da Liga dos Campeões de 2003.",
+      "imagens": [
+        "assets/img/sansiro/foto1.jpg",
+        "assets/img/sansiro/foto2.jpg",
+        "assets/img/sansiro/foto3.jpg",
+        "assets/img/sansiro/foto4.jpg",
+        "assets/img/sansiro/foto5.jpg",
+        "assets/img/sansiro/foto6.jpg",
+        "assets/img/sansiro/foto7.jpg",
+        "assets/img/sansiro/foto8.jpg"
+      ],
+      "latitude": 45.4735,
+      "longitude": 9.1212
+    },
+    {
+      "id": "6",
+      "nome": "Old Trafford",
+      "imagem": "assets/img/oldtrafford.jpg",
+      "capacidade": "74140",
+      "localizacao": "Manchester, Inglaterra",
+      "timeMandante": "Manchester United",
+      "descricao": "Conhecido como 'Teatro dos Sonhos', é o lar de algumas das maiores lendas do futebol inglês.",
+      "curiosidades": "Foi bombardeado durante a Segunda Guerra Mundial e reconstruído nos anos seguintes.",
+      "recorde": "76.962 pessoas em um jogo contra o AC Milan.",
+      "eventos": "Final da Liga dos Campeões de 2003, Jogos Olímpicos de 2012.",
+      "imagens": [
+        "assets/img/trafford/foto1.jpg",
+        "assets/img/trafford/foto2.jpg",
+        "assets/img/trafford/foto3.jpg",
+        "assets/img/trafford/foto4.jpg",
+        "assets/img/trafford/foto5.jpg",
+        "assets/img/trafford/foto6.jpg",
+        "assets/img/trafford/foto7.jpg",
+        "assets/img/trafford/foto8.jpg"
+      ],
+      "latitude": 53.463493,
+      "longitude": -2.292279
+    },
+    {
+      "nome": "Signal Iduna Park",
+      "imagem": "assets/img/iduna.jpg",
+      "capacidade": "81365",
+      "localizacao": "Dortmund, Alemanha",
+      "timeMandante": "Borussia Dortmund",
+      "descricao": "Conhecido por sua torcida apaixonada, é o maior estádio da Alemanha, famoso pela atmosfera única.",
+      "curiosidades": "O estádio é famoso pela 'Amarelinha', a muralha amarela composta pela torcida do Dortmund.",
+      "recorde": "80.720 pessoas em uma partida contra o Schalke 04.",
+      "eventos": "Final da Liga dos Campeões de 2013.",
+      "imagens": [
+        "assets/img/iduna/foto1.jpg",
+        "assets/img/iduna/foto2.jpg",
+        "assets/img/iduna/foto3.jpg",
+        "assets/img/iduna/foto4.jpg",
+        "assets/img/iduna/foto5.jpg",
+        "assets/img/iduna/foto6.jpg",
+        "assets/img/iduna/foto7.jpg",
+        "assets/img/iduna/foto8.jpg"
+      ],
+      "latitude": 51.492593,
+      "longitude": 7.451842,
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "nome": "Wembley",
+      "imagem": "assets/img/wembley.jpg",
+      "capacidade": "90000",
+      "localizacao": "Londres, Inglaterra",
+      "timeMandante": "Seleção Inglesa",
+      "descricao": "Estádio nacional da Inglaterra, reconstruído em 2007, palco de finais históricas.",
+      "curiosidades": "O novo arco de Wembley é visível de quase toda a cidade de Londres.",
+      "recorde": "90.000 pessoas em uma final da Liga dos Campeões.",
+      "eventos": "Final da Copa do Mundo de 1966, Final da Liga dos Campeões de 2011.",
+      "imagens": [
+        "assets/img/wembley/foto1.jpg",
+        "assets/img/wembley/foto2.jpg",
+        "assets/img/wembley/foto3.jpg",
+        "assets/img/wembley/foto4.jpg",
+        "assets/img/wembley/foto5.jpg",
+        "assets/img/wembley/foto6.jpg",
+        "assets/img/wembley/foto7.jpg",
+        "assets/img/wembley/foto8.jpg"
+      ],
+      "latitude": 51.555973,
+      "longitude": -0.279672
+    },
+    {
+      "id": "9",
+      "nome": "Estádio Monumental",
+      "imagem": "assets/img/monumental.jpg",
+      "capacidade": "83214",
+      "localizacao": "Buenos Aires, Argentina",
+      "timeMandante": "River Plate",
+      "descricao": "O Estádio Monumental é o maior estádio da Argentina e a casa do River Plate.",
+      "curiosidades": "Foi sede da final da Copa do Mundo de 1978 e é conhecido por sua atmosfera vibrante.",
+      "recorde": "Mais de 86.000 torcedores em um clássico River vs Boca.",
+      "eventos": "Final da Copa Libertadores de 2018 (transferida para Madrid), shows de grandes artistas internacionais.",
+      "imagens": [
+        "assets/img/monumental/foto1.jpg",
+        "assets/img/monumental/foto2.jpg",
+        "assets/img/monumental/foto3.jpg",
+        "assets/img/monumental/foto4.jpg",
+        "assets/img/monumental/foto5.jpg",
+        "assets/img/monumental/foto6.jpg",
+        "assets/img/monumental/foto7.jpg",
+        "assets/img/monumental/foto8.jpg"
+      ],
+      "latitude": -34.5405,
+      "longitude": -58.4432
+    },
+    {
+      "id": "10",
+      "nome": "Parc des Princes",
+      "imagem": "assets/img/parc.jpg",
+      "capacidade": "48712",
+      "localizacao": "Paris, França",
+      "timeMandante": "Paris Saint-Germain",
+      "descricao": "O Parc des Princes é um estádio com uma rica história no futebol francês e europeu, inaugurado em 1972.",
+      "curiosidades": "Foi palco de grandes vitórias do PSG e eventos históricos, incluindo jogos da Copa do Mundo de 1998.",
+      "recorde": "49.000 pessoas em uma final da Copa da Liga.",
+      "eventos": "Jogos Olímpicos de 1998, Final da Liga dos Campeões de 2020.",
+      "imagens": [
+        "assets/img/parc/foto1.jpg",
+        "assets/img/parc/foto2.jpg",
+        "assets/img/parc/foto3.jpg",
+        "assets/img/parc/foto4.jpg",
+        "assets/img/parc/foto5.jpg",
+        "assets/img/parc/foto6.jpg",
+        "assets/img/parc/foto7.jpg",
+        "assets/img/parc/foto8.jpg"
+      ],
+      "latitude": 48.8382,
+      "longitude": 2.2518
+    },
+    {
+      "id": "11",
+      "nome": "La Bombonera",
+      "imagem": "assets/img/bombonera.jpg",
+      "capacidade": "54000",
+      "localizacao": "Buenos Aires, Argentina",
+      "timeMandante": "Boca Juniors",
+      "descricao": "A casa do Boca Juniors, conhecida por sua atmosfera única e apaixonada torcida.",
+      "curiosidades": "A Bombonera é famosa pelo seu formato de caixa, que cria um ambiente extremamente intimista e barulhento.",
+      "recorde": "54.000 pessoas em um Superclássico contra o River Plate.",
+      "eventos": "Final da Copa Libertadores de 2000, Superclássicos históricos.",
+      "imagens": [
+        "assets/img/bombonera/foto1.jpg",
+        "assets/img/bombonera/foto2.jpg",
+        "assets/img/bombonera/foto3.jpg",
+        "assets/img/bombonera/foto4.jpg",
+        "assets/img/bombonera/foto5.jpg",
+        "assets/img/bombonera/foto6.jpg",
+        "assets/img/bombonera/foto7.jpg",
+        "assets/img/bombonera/foto8.jpg"
+      ],
+      "latitude": -34.6347,
+      "longitude": -58.3588
+    },
+    {
+      "id": "12",
+      "nome": "Anfield",
+      "imagem": "assets/img/anfield.jpg",
+      "capacidade": "54074",
+      "localizacao": "Liverpool, Inglaterra",
+      "timeMandante": "Liverpool FC",
+      "descricao": "O estádio mais famoso de Liverpool, conhecido pela sua atmosfera apaixonada e pela 'Kop', sua famosa arquibancada.",
+      "curiosidades": "Anfield é famoso pelo canto de sua torcida, especialmente no 'You'll Never Walk Alone'.",
+      "recorde": "54.074 pessoas em um jogo da Premier League.",
+      "eventos": "Final da Liga dos Campeões de 2005, Final da Premier League de 2019.",
+      "imagens": [
+        "assets/img/anfield/foto1.jpg",
+        "assets/img/anfield/foto2.jpg",
+        "assets/img/anfield/foto3.jpg",
+        "assets/img/anfield/foto4.jpg",
+        "assets/img/anfield/foto5.jpg",
+        "assets/img/anfield/foto6.jpg",
+        "assets/img/anfield/foto7.jpg",
+        "assets/img/anfield/foto8.jpg"
+      ],
+      "latitude": 53.4252,
+      "longitude": -2.9565
+    },
+        {
+      "nome": "Estádio Mineirão",
+      "imagem": "https://media.istockphoto.com/id/1742545201/pt/foto/aerial-view-of-mineir%C3%A3o-football-stadium-in-pampulha-belo-horizonte-brazil.jpg?s=612x612&w=0&k=20&c=sIivI3bCjGmhtLvTsna8DI4OcbEQzKTuz5HmAqqD-H0=",
+      "capacidade": "61927",
+      "localizacao": "Belo Horizonte",
+      "timeMandante": "Cruzeiro EC",
+      "descricao": "O Estádio Governador Magalhães Pinto, mais conhecido como Mineirão, é um estádio de futebol localizado em Belo Horizonte, Minas Gerais, onde o Cruzeiro Esporte Clube realiza seus jogos",
+      "curiosidades": "Já recebeu vários jogos de Copa do Mundo",
+      "recorde": "61583 em clássico mineiro, Cruzeiro x Atlético Mineiro",
+      "eventos": "Semifinal de Copa do Mundo, Finais de Libertadores e Copa do Brasil",
+      "imagens": [
+        "https://media.gettyimages.com/id/2174751167/pt/foto/belo-horizonte-brazil-players-of-cruzeiro-celebrate-after-winning-the-copa-conmebol.jpg?s=612x612&w=0&k=20&c=oH0ye5MA3O_gL6m1bQ5Hrh2-1ZjGDCARdTu_kEuQ1mo=",
+        "https://media.gettyimages.com/id/1224640835/pt/foto/belo-horizonte-brazil-red-lights-illuminate-the-mineirao-stadium-on-july-3-2020-in-belo.jpg?s=612x612&w=0&k=20&c=U8q6tm9cEGz9L8_TKjx9Wp-hn1l5OjoZcmWU5xezf-k=",
+        "https://media.gettyimages.com/id/951595920/pt/foto/topshot-sassa-of-brazils-cruzeiro-and-goalkeeper-johnny-herrera-of-chiles-universidad-de-chile.jpg?s=612x612&w=0&k=20&c=xZXZW_A2xezTHf2ZT99-eWObHsIVHT33NT2l4M0UxyE=",
+        "https://media.gettyimages.com/id/451861684/pt/foto/belo-horizonte-brazil-brazil-pose-for-a-team-photo-holding-a-neymar-jersey-prior-to-the-2014.jpg?s=612x612&w=0&k=20&c=tnaF1gJBtJMe7rHbZksSU1joGBVcyPULQs-5B_SwQ6w=",
+        "https://media.gettyimages.com/id/1836537537/pt/foto/belo-horizonte-brazil-dudu-of-palmeira-celebrate-with-the-trophy-after-winning-the-match.jpg?s=612x612&w=0&k=20&c=HAjwFHy81V00FyVg0wNY1ieX6X9k8oaXnGDDMCriwHE=",
+        "https://media.gettyimages.com/id/458478436/pt/foto/belo-horizonte-brazil-victor-of-atletico-mg-celebrates-the-winning-after-the-game-against.jpg?s=612x612&w=0&k=20&c=9bIr00QH_Ze1Ky-I_WCGL3WWGxrP-4TMgrGPf2joWNw=",
+        "https://media.gettyimages.com/id/589031310/pt/foto/belo-horizonte-brazil-a-general-view-is-seen-as-australia-and-brazil-play-during-the-second.jpg?s=612x612&w=0&k=20&c=D_8Pxt8mxCVuTw8LWn5dgmvP3nmG5g_YkhJns7O5fRE=",
+        "https://media.gettyimages.com/id/961527562/pt/foto/lucas-silva-of-brazils-cruzeiro-celebrates-after-scoring-against-argentinas-racing-club-during.jpg?s=612x612&w=0&k=20&c=0EdhmttskcL6C4oeYMj0JfQRkqSlf-8vaONj4gtf8LU="
+      ],
+      "latitude": -19.8595,
+      "longitude": -43.9692,
+      "id": "13"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "nome": "Administrador",
+      "email": "admin@example.com",
+      "senha": "123",
+      "admin": true,
+      "favoritos": [
+        "6",
+        "5",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "130a",
+      "usuario": "gui",
+      "nome": "Guilherme",
+      "email": "ff",
+      "senha": "123",
+      "admin": false,
+      "favoritos": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "702f",
+      "usuario": "user",
+      "nome": "Usuário Comum",
+      "email": "d",
+      "senha": "123",
+      "admin": false,
+      "favoritos": []
+    }
+  ]
+}

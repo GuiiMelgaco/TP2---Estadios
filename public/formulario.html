@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Estádios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+      <div class="container-90 mt-3">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+          <a href="index.html">
+            <img src="assets/img/logotipo.png" alt="Página Inicial" style="height: 70px; width: auto;" />
+          </a>
+
+          <div class="menu-botoes d-flex flex-wrap justify-content-center gap-3">
+          <a href="formulario.html" class="btn btn-success botao-menu" id="btnCadastro">Cadastro</a>
+          <a href="favoritos.html" class="btn btn-success botao-menu" id="btnFavoritos">Favoritos</a>
+          <button id="btnLoginLogout" class="btn btn-success botao-menu"></button>
+        </div>
+        </div>
+      </div>
+  </header>
+  
+
+
+  <main class="container-90 mt-3">
+    <form id="form-estadio" class="row g-3 mb-5">
+      <h2>Formulário de Cadastro / Edição</h2>
+      <div class="col-md-3">
+        <label for="nome" class="form-label">*Nome do Estádio:</label>
+        <input type="text" class="form-control" id="nome" required />
+      </div>
+
+      <div class="col-md-3">
+        <label for="imagem" class="form-label">*URL da Imagem:</label>
+        <input type="text" class="form-control" id="imagem" required />
+      </div>
+
+      <div class="col-md-2">
+        <label for="capacidade" class="form-label">*Capacidade:</label>
+        <input type="number" class="form-control" id="capacidade" required />
+      </div>
+
+      <div class="col-2">
+        <label for="recorde" class="form-label">Recorde de Público:</label>
+        <input type="text" class="form-control" id="recorde" />
+      </div>
+
+      <div class="col-md-2">
+        <label for="timeMandante" class="form-label">*Time Mandante:</label>
+        <input type="text" class="form-control" id="timeMandante" required />
+      </div>
+
+      <div class="col-md-5">
+        <label for="descricao" class="form-label">*Descrição:</label>
+        <input type="text"  class="form-control" id="descricao" required></textarea>
+      </div>
+
+      <div class="col-md-4">
+        <label for="curiosidades" class="form-label">Curiosidades:</label>
+        <input type="text"  class="form-control" id="curiosidades"></textarea>
+      </div>
+
+      <div class="col-3">
+        <label for="eventos" class="form-label">Eventos Importantes:</label>
+        <input type="text" class="form-control" id="eventos" />
+      </div>
+
+      <div class="col-12">
+        <label for="imagens" class="form-label">URLs das Imagens (separe por vírgula):</label>
+        <textarea class="form-control" id="imagens" rows="2" placeholder="Ex: url1.jpg, url2.jpg, url3.jpg"></textarea>
+      </div>
+
+      <div class="col-md-4">
+        <label for="localizacao" class="form-label">*Localização:</label>
+        <input type="text" class="form-control" id="localizacao" required />
+      </div>
+
+      <div class="col-md-4">
+        <label for="latitude" class="form-label">*Latitude:</label>
+        <input type="number" step="any" class="form-control" id="latitude" required />
+      </div>
+
+      <div class="col-md-4">
+        <label for="longitude" class="form-label">*Longitude:</label>
+        <input type="number" step="any" class="form-control" id="longitude" required/>
+      </div>
+
+      <div class="col-12 text-end d-flex justify-content-end gap-2">
+        <button type="button" class="btn btn-secondary" id="botao-limpar">Limpar</button>
+        <button type="submit" class="btn btn-success" id="botao-submit">Cadastrar novo estádio</button>
+      </div>
+    </form>
+
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered text-center align-middle">
+        <thead class="table-success">
+        <tr>
+          <th>Nome</th>
+          <th>Imagem</th>
+          <th>Capacidade</th>
+          <th>Localização</th>
+          <th>Time Mandante</th>
+          <th>Descrição</th>
+          <th>Curiosidades</th>
+          <th>Recorde</th>
+          <th>Eventos</th>
+          <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody id="tabela-estadios">
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="bg-success text-white text-center py-3">
+    <p>&copy; 2025 Guia de Estádios</p>
+  </footer>
+
+  <script src="assets/js/formulario.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
